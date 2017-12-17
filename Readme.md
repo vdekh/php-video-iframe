@@ -5,11 +5,21 @@
 
 use app\extensions\videoiframe\VideoIframe;
 use app\extensions\videoiframe\YouTube;
+use app\extensions\videoiframe\Vimeo;
 
+// YouTube
 $link = 'https://www.youtube.com/watch?v=Svk3r0D4a8g';
 
 $video = new VideoIframe();
 $iframe = $video->link(new YouTube($link, 320, 180));
+
+echo $iframe;
+
+// Vimeo
+$link = 'https://vimeo.com/83913453';
+
+$video = new VideoIframe();
+$iframe = $video->link(new Vimeo($link, 320, 180));
 
 echo $iframe;
 

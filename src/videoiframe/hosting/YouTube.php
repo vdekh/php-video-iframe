@@ -19,11 +19,18 @@ class YouTube implements Link
 
     public function getIframe()
     {
-        return preg_replace(
+        $this->link = preg_replace(
             '#((https|http):\/\/([a-zA-Z0-9]+\.|)youtube\.com\/.*v=([a-zA-Z0-9_-]+).*)#i',
             '<iframe width="'.$this->width.'" height="'.$this->height.'" src="https://www.youtube.com/embed/\\4" allowfullscreen></iframe>',
             $this->link
         );
+        $this->link = preg_replace(
+            '#((https|http):\/\/youtu\.be\/([a-zA-Z0-9_-]+).*)#i',
+            '<iframe width="'.$this->width.'" height="'.$this->height.'" src="https://www.youtube.com/embed/\\3" allowfullscreen></iframe>',
+            $this->link
+        );
+
+        return $this->link;
     }
 }
 
