@@ -8,5 +8,3 @@ interface Link
 {
     public function getIframe();
 }
-
-?>

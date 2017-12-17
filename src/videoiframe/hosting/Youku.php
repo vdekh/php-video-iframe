@@ -26,5 +26,3 @@ class Youku implements Link
         );
     }
 }
-
-?>

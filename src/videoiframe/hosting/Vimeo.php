@@ -26,5 +26,3 @@ class Vimeo implements Link
         );
     }
 }
-
-?>

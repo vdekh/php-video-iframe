@@ -33,5 +33,3 @@ class YouTube implements Link
         return $this->link;
     }
 }
-
-?>
