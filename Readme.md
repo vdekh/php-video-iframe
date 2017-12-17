@@ -6,9 +6,9 @@ How to use:
 <?php
 
 use app\extensions\videoiframe\VideoIframe;
-use app\extensions\videoiframe\YouTube;
-use app\extensions\videoiframe\Vimeo;
-use app\extensions\videoiframe\Youku;
+use app\extensions\videoiframe\hosting\YouTube;
+use app\extensions\videoiframe\hosting\Vimeo;
+use app\extensions\videoiframe\hosting\Youku;
 
 
 // YouTube.com
