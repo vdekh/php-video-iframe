@@ -5,10 +5,10 @@ How to use:
 ```
 <?php
 
-use app\extensions\videoiframe\VideoIframe;
-use app\extensions\videoiframe\hosting\YouTube;
-use app\extensions\videoiframe\hosting\Vimeo;
-use app\extensions\videoiframe\hosting\Youku;
+use src\videoiframe\VideoIframe;
+use src\videoiframe\hosting\YouTube;
+use src\videoiframe\hosting\Vimeo;
+use src\videoiframe\hosting\Youku;
 
 
 // YouTube.com
