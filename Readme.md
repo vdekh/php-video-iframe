@@ -10,10 +10,10 @@ This repository provides the ability to convert video sharing link to html tag <
 ```
 <?php
 
-use src\videoiframe\VideoIframe;
-use src\videoiframe\hosting\YouTube;
-use src\videoiframe\hosting\Vimeo;
-use src\videoiframe\hosting\Youku;
+use vdekh\videoiframe\VideoIframe;
+use vdekh\videoiframe\hosting\YouTube;
+use vdekh\videoiframe\hosting\Vimeo;
+use vdekh\videoiframe\hosting\Youku;
 
 
 // YouTube.com
