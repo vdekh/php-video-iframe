@@ -1,10 +1,3 @@
-[![Build Status](https://travis-ci.org/vdekh/php-video-iframe.png?branch=master)](https://travis-ci.org/vdekh/php-video-iframe)
-[![Latest Stable Version](https://poser.pugx.org/vdekh/php-video-iframe/v/stable.png)](https://packagist.org/packages/vdekh/php-video-iframe)
-[![Total Downloads](https://poser.pugx.org/vdekh/php-video-iframe/downloads.png)](https://packagist.org/packages/vdekh/php-video-iframe)
-[![Latest Unstable Version](https://poser.pugx.org/vdekh/php-video-iframe/v/unstable.png)](https://packagist.org/packages/vdekh/php-video-iframe)
-[![License](https://poser.pugx.org/vdekh/php-video-iframe/license.png)](https://packagist.org/packages/vdekh/php-video-iframe)
-
-
 # Convert video sharing link to iframe in PHP
 
 This repository provides the ability to convert video sharing link to html tag <iframe>.
