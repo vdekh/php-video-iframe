@@ -1,7 +1,7 @@
 <?php
-namespace src\videoiframe\hosting;
+namespace vdekh\videoiframe\hosting;
 
-use src\videoiframe\Link;
+use vdekh\videoiframe\Link;
 
 
 class Vimeo implements Link

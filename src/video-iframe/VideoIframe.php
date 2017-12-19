@@ -1,7 +1,7 @@
 <?php
-namespace src\videoiframe;
+namespace vdekh\videoiframe;
 
-use src\videoiframe\Link;
+use vdekh\videoiframe\Link;
 
 
 class VideoIframe

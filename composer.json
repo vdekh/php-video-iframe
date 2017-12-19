@@ -1,0 +1,22 @@
+{
+    "name": "vdekh/php-video-iframe",
+    "description": "Converts video host links to an iframe tag in PHP.",
+    "homepage": "https://github.com/vdekh/php-video-iframe",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Dekh",
+            "email": "vicdekh@gmail.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "vdekh\\videoiframe\\": "src/video-iframe/"
+        }
+    }
+}

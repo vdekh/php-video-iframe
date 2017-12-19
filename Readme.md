@@ -1,6 +1,18 @@
-## Converts video host links to an iframe tag in PHP.
+[![Build Status](https://travis-ci.org/vdekh/php-video-iframe.png?branch=master)](https://travis-ci.org/vdekh/php-video-iframe)
+[![Latest Stable Version](https://poser.pugx.org/vdekh/php-video-iframe/v/stable.png)](https://packagist.org/packages/vdekh/php-video-iframe)
+[![Total Downloads](https://poser.pugx.org/vdekh/php-video-iframe/downloads.png)](https://packagist.org/packages/vdekh/php-video-iframe)
+[![Latest Unstable Version](https://poser.pugx.org/vdekh/php-video-iframe/v/unstable.png)](https://packagist.org/packages/vdekh/php-video-iframe)
+[![License](https://poser.pugx.org/vdekh/php-video-iframe/license.png)](https://packagist.org/packages/vdekh/php-video-iframe)
 
-How to use:
+
+# Convert video sharing link to iframe in PHP
+
+This repository provides the ability to convert video sharing link to html tag <iframe>.
+
+
+## Usage
+
+### The client
 
 ```
 <?php
@@ -42,21 +54,3 @@ echo $iframe;
 
 ?>
 ```
-
-
-## License
-
-http://www.gnu.org/licenses/lgpl-3.0.txt
-
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License as
-published by the Free Software Foundation; either version 3 of
-the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, see <http://www.gnu.org/licenses>.
