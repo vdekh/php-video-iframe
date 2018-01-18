@@ -17,9 +17,9 @@ class VideoIframeTest extends TestCase
         $video = new VideoIframe();
         $iframe = $video->link(new YouTube($link, 800, 450));
 
-        $result = '<iframe width="800" height="450" src="https://www.youtube.com/embed/Svk3r0D4a8g" allowfullscreen></iframe>';
+        $data = '<iframe width="800" height="450" src="https://www.youtube.com/embed/Svk3r0D4a8g" allowfullscreen></iframe>';
 
-        self::assertEquals($result, $iframe);
+        self::assertEquals($data, $iframe);
     }
 
     public function testVimeo()
@@ -29,9 +29,9 @@ class VideoIframeTest extends TestCase
         $video = new VideoIframe();
         $iframe = $video->link(new Vimeo($link, 800, 450));
 
-        $result = '<iframe src="https://player.vimeo.com/video/83913453?color=288ec0&title=0&byline=0&portrait=0&badge=0" width="800" height="450" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+        $data = '<iframe src="https://player.vimeo.com/video/83913453?color=288ec0&title=0&byline=0&portrait=0&badge=0" width="800" height="450" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
 
-        self::assertEquals($result, $iframe);
+        self::assertEquals($data, $iframe);
     }
 
     public function testYouku()
@@ -41,8 +41,8 @@ class VideoIframeTest extends TestCase
         $video = new VideoIframe();
         $iframe = $video->link(new Youku($link, 800, 450));
 
-        $result = '<iframe src="https://player.youku.com/embed/XMTU2NzE1MTQ1Ng====" width="800" height="450" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+        $data = '<iframe src="https://player.youku.com/embed/XMTU2NzE1MTQ1Ng====" width="800" height="450" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
 
-        self::assertEquals($result, $iframe);
+        self::assertEquals($data, $iframe);
     }
 }
