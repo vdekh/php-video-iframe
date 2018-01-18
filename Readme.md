@@ -23,7 +23,7 @@ $video = new VideoIframe();
 $iframe = $video->link(new YouTube($link, 800, 450));
 
 echo $iframe;
-// <iframe width="800" height="450" src="https://www.youtube.com/embed/Svk3r0D4a8g" allowfullscreen=""></iframe>
+// <iframe width="800" height="450" src="https://www.youtube.com/embed/Svk3r0D4a8g" allowfullscreen></iframe>
 
 
 // Vimeo.com
@@ -33,7 +33,7 @@ $video = new VideoIframe();
 $iframe = $video->link(new Vimeo($link, 800, 450));
 
 echo $iframe;
-// <iframe src="https://player.vimeo.com/video/83913453?color=288ec0&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="800" height="450" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+// <iframe src="https://player.vimeo.com/video/83913453?color=288ec0&title=0&byline=0&portrait=0&badge=0" width="800" height="450" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 // Youku.com
@@ -43,7 +43,7 @@ $video = new VideoIframe();
 $iframe = $video->link(new Youku($link, 800, 450));
 
 echo $iframe;
-// <iframe src="https://player.youku.com/embed/XMTU2NzE1MTQ1Ng====" width="800" height="450" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+// <iframe src="https://player.youku.com/embed/XMTU2NzE1MTQ1Ng====" width="800" height="450" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ?>
 ```

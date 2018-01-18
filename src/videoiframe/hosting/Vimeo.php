@@ -3,7 +3,6 @@ namespace vdekh\videoiframe\hosting;
 
 use vdekh\videoiframe\Link;
 
-
 class Vimeo implements Link
 {
     private $link;

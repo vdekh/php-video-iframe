@@ -3,7 +3,6 @@ namespace vdekh\videoiframe\hosting;
 
 use vdekh\videoiframe\Link;
 
-
 class Youku implements Link
 {
     private $link;
